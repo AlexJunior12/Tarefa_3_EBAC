@@ -6,6 +6,49 @@
     <title>Tarefa 3 - modulo HTML</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Realize seu cadastro!</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Preencha o formulário com seus dados abaixo</legend>
+                    <div>
+                        <label for="name">Nome completo:</label>
+                        <input id="name" type="text" placeholder="Ex: João Victor Medeiros" required/>
+                    </div>
+                    <div>
+                        <label for="email">Seu melhor email:</label>
+                        <input id="email" type="email" placeholder="Ex: joaovictor@exemplo.com" required/>
+                    </div>
+                    <div>
+                        <label for="phone">Telefone para contato:</label>
+                        <input id="phone" type="tel" placeholder="Ex: +55(85)9 8844-5566" required/>
+                    </div>
+                    <div>
+                        <label for="password">Uma senha segura:</label>
+                        <input id="password" type="password" required/>
+                    </div>
+                    <div>
+                        <label for="password-confirm">Confirme sua senha:</label>
+                        <input id="password-confirm" type="password" required/>
+                    </div>
+                    <div>
+                        <label for="date">Informe sua data de nascimento:</label>
+                        <input id="date" type="date" required/>
+                    </div>
+                    <div>
+                        <label for="documents">Anexe sua identidade digitalizada:</label>
+                        <input id="documents" type="file" required/>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
